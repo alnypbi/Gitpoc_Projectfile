@@ -80,6 +80,14 @@
           }
         ],
         "lineageTag": "1bd4eae7-c6cc-4fc0-a55f-8eed7f7fb93c",
+        "measures": [
+          {
+            "name": "Total No of Source",
+            "expression": "COUNT(Data[Source])",
+            "formatString": "0",
+            "lineageTag": "c8c34b1b-1207-43d0-9205-a27d9bf611e6"
+          }
+        ],
         "partitions": [
           {
             "name": "Data",
