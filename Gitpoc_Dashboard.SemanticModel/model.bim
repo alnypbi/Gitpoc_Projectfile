@@ -86,6 +86,12 @@
             "expression": "COUNT(Data[Source])",
             "formatString": "0",
             "lineageTag": "c8c34b1b-1207-43d0-9205-a27d9bf611e6"
+          },
+          {
+            "name": "Total",
+            "expression": "CALCULATE(COUNT(Data[Source]))",
+            "formatString": "0",
+            "lineageTag": "8faf2d65-6fb7-4e89-90ad-e04342aec6fc"
           }
         ],
         "partitions": [
