@@ -207,10 +207,11 @@
               },
               {
                 "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
+                "value": "{\"isDecimal\":true}"
               }
             ],
             "dataType": "double",
+            "formatString": "0",
             "lineageTag": "a2bb29a6-4d2c-4be1-ac01-d093409b02ff",
             "sourceColumn": "Sales",
             "summarizeBy": "sum"
@@ -300,8 +301,14 @@
                 "value": "Automatic"
               }
             ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
             "dataType": "string",
             "lineageTag": "e1f0eb75-ed17-4bed-a532-f12d9545d3a7",
+            "sortByColumn": "Month Number",
             "sourceColumn": "Month Name",
             "summarizeBy": "none"
           },
